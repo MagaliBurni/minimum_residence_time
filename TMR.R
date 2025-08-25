@@ -25,7 +25,7 @@ head(cordoba)
 
 # Modelos GLM con distribucion Gamma 
 cordoba$Status.invasor <- factor(cordoba$Status.invasor,
-                                 levels= c('No invasora', 'Invasora', 'Nativa'))   #ordenación de los niveles del factor status
+                                 levels= c('No invasora', 'Invasora', 'Nativa'))   #orden de los niveles del factor status
 
 fit_cordoba <- glm(tr ~ Status.invasor , data = cordoba, family= Gamma (link = 'log'))
 
@@ -44,7 +44,7 @@ centro_este <- read.csv("TR REGIONAL.csv",
                         header = T, 
                         sep = ",")
 
-centro_este <- centro_este[,c(1,7,10)]              #Selección de variables relevantes para el análisis
+centro_este <- centro_este[,c(1,7,10)]              #Selección de variables relevantes para el análisis (especie, año de registro y status invasor)
 centro_este$tr <- 2022-centro_este$Año.registro     #Cálculo de TMR
 centro_este <- na.omit(centro_este)                 #eliminación de NAs
 
