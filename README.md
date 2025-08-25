@@ -9,7 +9,7 @@ El análisis aplica modelos GLM con distribución Gamma, diagnóstico estadísti
 - `TMR.R`: script principal con todo el análisis.
 - El presente README.md con la descripción del script.
 
-⚠️ **Nota:** Los archivos de datos (`TR LOCAL.csv` y `TR REGIONAL.csv`) no están incluidos en este repositorio por motivos de confidencialidad. Para ejecutar el script, es necesario contar con bases de datos con estructura similar (columnas de especie, año de registro y status invasor).
+**Nota:** Los archivos de datos (`TR LOCAL.csv` y `TR REGIONAL.csv`) no están incluidos en este repositorio por motivos de confidencialidad. Para ejecutar el script, es necesario contar con bases de datos con estructura similar (columnas de especie, año de registro y status invasor).
 
 ---
 
