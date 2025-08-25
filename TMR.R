@@ -1,6 +1,6 @@
 ###############################################
 # Análisis del Tiempo Mínimo de Residencia (TMR) y visualización de datos a 2 escalas
-# Autor/a: Maguali Burni
+# Autora: Maguali Burni
 # Fecha: noviembre de 2022
 ###############################################
 
